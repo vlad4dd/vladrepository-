@@ -15,15 +15,15 @@ int main()
 	x = a;
 	while (x <= b + h / 2)
 	{
-		y = pow(x, 1 / 3) + pow(x, 3) - 3;
+		y = pow(x, 1 / 3) + pow(x, 3) - 2;
 		cout << setw(5) << x << "\t|\t" << setw(10) << y << endl;
 		x += h;
 	}
 
-	cout << "******************************************" << endl;
+	cout << "============================================" << endl;
 	x = a;
 	do {
-		y = pow(x, 1 / 3) + pow(x, 3) - 3;
+		y = pow(x, 1 / 3) + pow(x, 3) - 2;
 		cout << setw(5) << x << "\t|\t" << setw(10) << y << endl;
 		x += h;
 
